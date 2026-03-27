@@ -1,0 +1,13 @@
+.contact-details {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+}
+
+.contact-details strong {
+  margin-right: 0.3rem;
+  color: var(--text);
+}

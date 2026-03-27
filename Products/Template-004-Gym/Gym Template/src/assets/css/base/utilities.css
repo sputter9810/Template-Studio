@@ -1,0 +1,32 @@
+.section { padding: 5.5rem 0; }
+.section-header { max-width: 760px; margin-bottom: 2rem; }
+.section-header p:last-child { color: var(--muted); }
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--brand-2);
+}
+
+.eyebrow::before {
+  content: "";
+  width: 1.1rem;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(45, 212, 191, 0.45);
+  outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+  .section { padding: 4.5rem 0; }
+}

@@ -1,65 +1,63 @@
 # Customisation Guide
 
-## 1. Brand basics
+## Quick Start
+Open `src/index.html` in your code editor and update the visible content to match your gym, fitness studio, or coaching brand.
 
-Open `index.html` and update:
+## What to edit first
+- Brand name in the header and footer
+- Hero heading, subheading, and calls to action
+- Program cards under the Programs section
+- Contact details and enquiry form copy
+- Placeholder content in the gallery and visual panels
 
-- brand name
-- headings and paragraph copy
-- contact information
-- CTA labels
+## CSS structure
+The CSS has been broken into modular files so changes are easier to manage.
 
-## 2. Colours
+### Main entry file
+- `src/assets/css/style.css`
 
-Open `assets/css/style.css` and edit the variables near the top:
+### Base styles
+- `base/reset.css`
+- `base/variables.css`
+- `base/typography.css`
+- `base/utilities.css`
 
-- `--brand`
-- `--brand-2`
-- `--warm`
-- `--bg`
-- `--surface`
+### Layout
+- `layout/container.css`
 
-## 3. Placeholder visuals
+### Components
+- Brand
+- Navigation
+- Buttons
+- Cards
+- Trust strip
+- Feature list
+- Contact form
+- Contact details
+- Visual panel
+- Stats grid
+- Badge pill
+- Dashboard mockup
+- Footer
 
-The template uses placeholder panels so it is easy to demo and sell as a product.
+### Sections
+- Hero
+- Services
+- About
+- Gallery
+- Process
+- FAQ
+- CTA
+- Contact
 
-To replace them with real images, you can:
+## Colours
+Change the colour palette in `src/assets/css/base/variables.css`.
 
-- insert `<img>` tags inside the existing visual blocks
-- replace panel backgrounds with image backgrounds in CSS
-- swap the panel markup for picture elements or cards
+## Fonts
+The template uses Inter from Google Fonts. Change the font import in `src/index.html` and update `base/typography.css` if needed.
 
-## 4. Navigation links
+## Images
+This template currently uses stylised placeholder panels instead of real images. You can replace these panels with `<img>` elements or background images when adapting the template.
 
-All navigation items point to section IDs on the page. If you rename a section ID, update the related navigation and footer links too.
-
-## 5. Contact form
-
-The form is static by default. The current JavaScript only shows a demo alert.
-
-To make it live, connect it to:
-
-- Formspree
-- Netlify Forms
-- your own backend endpoint
-- any preferred email or CRM workflow
-
-## 6. Suggested image use
-
-This template works well with:
-
-- gym interiors
-- coaching portraits
-- members training
-- class shots
-- equipment close-ups
-
-## 7. Reusable section ideas
-
-This build uses the latest supplied component and section system. You can easily duplicate or remove sections depending on the niche variation you want, such as:
-
-- boutique gym
-- PT studio
-- strength and conditioning
-- cross-training space
-- wellness or recovery hybrid
+## Forms
+The contact form is static by default. Connect it to your preferred form service or backend before going live.
