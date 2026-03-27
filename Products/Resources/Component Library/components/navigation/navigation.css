@@ -1,0 +1,13 @@
+.site-header { position: sticky; top: 0; z-index: 100; }
+.site-nav {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; min-height: 78px;
+}
+.nav-links { display: flex; align-items: center; gap: 1.25rem; }
+.nav-toggle { display: none; }
+
+@media (max-width: 760px) {
+  .nav-toggle { display: inline-block; }
+  .nav-links { display: none; flex-direction: column; align-items: stretch; }
+  .nav-links.is-open { display: flex; }
+}

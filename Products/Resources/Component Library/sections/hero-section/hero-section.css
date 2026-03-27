@@ -1,0 +1,8 @@
+.hero-grid {
+  display: grid; gap: 2rem; align-items: center;
+}
+.hero-visual { min-width: 0; }
+
+@media (min-width: 900px) {
+  .hero-grid { grid-template-columns: 1.05fr 0.95fr; }
+}

@@ -1,0 +1,11 @@
+.visual-panel,
+.placeholder-panel {
+  min-height: 220px; border-radius: 24px; border: 1px solid var(--border, #ddd); padding: 1.25rem;
+}
+.visual-hero { min-height: 360px; }
+.visual-badge {
+  display: inline-block; margin-bottom: 1rem; padding: 0.4rem 0.75rem;
+  border-radius: 999px; font-weight: 700;
+}
+.visual-panel-soft {}
+.visual-panel-warm {}

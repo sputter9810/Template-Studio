@@ -1,0 +1,7 @@
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  min-height: 3rem; padding: 0.9rem 1.35rem; border-radius: 999px;
+  border: 1px solid transparent; font-weight: 700; text-decoration: none; transition: 0.2s ease;
+}
+.btn-secondary { background: transparent; }
+.text-link { font-weight: 700; text-decoration: none; }

@@ -1,0 +1,4 @@
+.services-section.services-grid .card-grid,
+.services-section.menu-grid .card-grid {
+  align-items: stretch;
+}

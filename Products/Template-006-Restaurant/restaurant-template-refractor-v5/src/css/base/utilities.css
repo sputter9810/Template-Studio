@@ -1,0 +1,55 @@
+.placeholder-panel,
+.visual-panel,
+.photo-card,
+.panel-tall,
+.panel-short {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background:
+    radial-gradient(circle at top left, rgba(211, 163, 95, 0.22), transparent 34%),
+    linear-gradient(135deg, #f5e8d8, #efe2d4);
+  color: var(--primary-strong);
+  box-shadow: var(--shadow);
+}
+
+.placeholder-panel span,
+.visual-panel p,
+.gallery-item span {
+  font-weight: 700;
+  color: rgba(111, 47, 25, 0.82);
+}
+
+.visual-panel,
+.placeholder-panel {
+  min-height: 220px;
+  border-radius: 24px;
+  border: 1px solid var(--border, #ddd);
+  padding: 1.25rem;
+}
+.visual-badge {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  font-weight: 700;
+  background: rgba(255,255,255,0.75);
+}
+
+.site-footer ul {
+  list-style: none;
+  display: grid;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.contact-details {
+  margin-top: 1.25rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.footer-meta {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}

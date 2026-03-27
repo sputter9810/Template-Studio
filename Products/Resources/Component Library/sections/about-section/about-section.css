@@ -1,0 +1,8 @@
+.about-section .split-layout {
+  display: grid; gap: 2rem; align-items: center;
+}
+.about-copy { max-width: 620px; }
+
+@media (min-width: 900px) {
+  .about-section .split-layout { grid-template-columns: 0.95fr 1.05fr; }
+}

@@ -1,0 +1,83 @@
+/* SECTION: hero-section */
+.hero-grid {
+  display: grid; gap: 2rem; align-items: center;
+}
+.hero-visual { min-width: 0; }
+
+@media (min-width: 900px) {
+  .hero-grid { grid-template-columns: 1.05fr 0.95fr; }
+}
+
+
+/* SECTION: services-or-menu-section */
+.services-section.services-grid .card-grid,
+.services-section.menu-grid .card-grid {
+  align-items: stretch;
+}
+
+
+/* SECTION: about-section */
+.about-section .split-layout {
+  display: grid; gap: 2rem; align-items: center;
+}
+.about-copy { max-width: 620px; }
+
+@media (min-width: 900px) {
+  .about-section .split-layout { grid-template-columns: 0.95fr 1.05fr; }
+}
+
+
+/* SECTION: gallery-section */
+.gallery-grid { display: grid; gap: 1rem; }
+.gallery-item { min-height: 220px; }
+
+@media (min-width: 760px) {
+  .gallery-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+
+/* SECTION: portfolio-section */
+.portfolio-gallery .gallery-grid { align-items: stretch; }
+
+
+/* SECTION: listings-section */
+.listing-card .card-meta { font-weight: 600; }
+
+
+/* SECTION: process-section */
+.process-section .card-grid { align-items: stretch; }
+
+
+/* SECTION: testimonials-section */
+.testimonials-section .card-grid { align-items: stretch; }
+
+
+/* SECTION: faq-section */
+.faq-list { display: grid; gap: 1rem; }
+.faq-item {
+  padding: 1rem 1.25rem; border-radius: 18px; border: 1px solid var(--border, #ddd);
+}
+.faq-item summary { cursor: pointer; font-weight: 700; }
+.faq-item p { margin-top: 0.9rem; }
+
+
+/* SECTION: cta-section */
+.cta-banner {
+  display: grid; gap: 1.5rem; align-items: center; padding: 2rem;
+  border-radius: 24px; border: 1px solid var(--border, #ddd);
+}
+
+@media (min-width: 760px) {
+  .cta-banner { grid-template-columns: 1fr auto; }
+}
+
+
+/* SECTION: contact-section */
+.contact-grid {
+  display: grid; gap: 2rem; align-items: start;
+}
+.contact-copy { max-width: 560px; }
+
+@media (min-width: 900px) {
+  .contact-section.contact-split .contact-grid { grid-template-columns: 0.95fr 1.05fr; }
+}

@@ -1,0 +1,18 @@
+.site-footer {
+  padding: 2rem 0 3rem;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: rgba(255,255,255,0.78);
+}
+
+@media (min-width: 760px) {
+  .footer-grid {
+    grid-template-columns: 1.2fr 0.8fr 0.8fr;
+  }
+}

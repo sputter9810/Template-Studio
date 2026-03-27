@@ -1,0 +1,16 @@
+.gallery-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.gallery-item {
+  min-height: 220px;
+  display: flex;
+  align-items: end;
+  font-weight: 700;
+  background: linear-gradient(135deg, #f5ede5, #e2c7ad);
+}
+
+@media (min-width: 760px) {
+  .gallery-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}

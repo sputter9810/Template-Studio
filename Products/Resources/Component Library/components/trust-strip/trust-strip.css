@@ -1,0 +1,6 @@
+.trust-strip { padding: 1rem 0; }
+.trust-items { display: grid; gap: 1rem; }
+
+@media (min-width: 760px) {
+  .trust-items { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
