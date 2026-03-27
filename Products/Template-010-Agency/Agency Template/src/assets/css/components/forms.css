@@ -1,0 +1,52 @@
+.contact-form {
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-weight: 700;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  font: inherit;
+  color: var(--text);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+  outline: 2px solid rgba(49, 94, 251, 0.18);
+  border-color: var(--primary);
+}
+
+.contact-details {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-details strong {
+  margin-right: 0.3rem;
+  color: var(--heading);
+}
+
+.form-note {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--text-soft);
+}

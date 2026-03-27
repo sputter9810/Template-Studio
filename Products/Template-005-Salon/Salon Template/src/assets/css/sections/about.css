@@ -1,0 +1,13 @@
+.about-section .split-layout {
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-media {
+  position: relative;
+  min-height: 320px;
+}
+
+.about-copy {
+  max-width: 620px;
+}

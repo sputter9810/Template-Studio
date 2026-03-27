@@ -1,0 +1,15 @@
+.contact-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
+}
+
+.contact-copy {
+  max-width: 560px;
+}
+
+@media (min-width: 900px) {
+  .contact-section.contact-split .contact-grid {
+    grid-template-columns: 0.95fr 1.05fr;
+  }
+}

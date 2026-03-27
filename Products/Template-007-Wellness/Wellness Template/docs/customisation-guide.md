@@ -1,25 +1,30 @@
 # Customisation Guide
 
-## Brand setup
-Update the brand name, initials, contact details, and footer content in `index.html`.
+## Start point
+Open `src/index.html` for content edits and `src/assets/css/base/variables.css` for the quickest brand styling updates.
 
-## Hero section
-Swap the headline, supporting copy, hero points, and hero stats to match the wellness niche you are targeting.
+## Brand edits
+Update the business name, initials, contact details, calls to action, and footer copy directly in `src/index.html`.
 
-## Services
-The services section uses shared `.card` styling with the `.service-card` variant. Replace the card titles and descriptions with your real offers.
+## Styling structure
+The stylesheet is now modular:
+- `base/` handles reset, variables, typography, and shared utilities
+- `layout/` handles structural layout rules such as the container and shared grids
+- `components/` handles reusable UI pieces like navigation, buttons, cards, visuals, and forms
+- `sections/` handles section-specific styling for hero, trust strip, gallery, FAQ, CTA, contact, and footer
 
-## About and process
-Use these sections to explain your approach, what makes the business trustworthy, and how a new client gets started.
+## Common edits
+- Colours: `src/assets/css/base/variables.css`
+- Buttons: `src/assets/css/components/buttons.css`
+- Cards and feature lists: `src/assets/css/components/cards.css`
+- Contact form: `src/assets/css/components/forms.css`
+- Hero layout and stats: `src/assets/css/sections/hero.css`
 
-## Gallery
-The gallery uses placeholder panels so the template can be sold or reused without licensing issues. Replace each block with your own imagery strategy.
+## Images
+The template ships with placeholders only. Add your own assets into `src/assets/images/` and replace the placeholder panels in `src/index.html`.
 
-## Testimonials and FAQ
-Keep testimonials short and believable. Use FAQ to answer the most common objections before the contact section.
+## Form connection
+The contact form is presentational by default. Connect it to Netlify Forms, Formspree, or your preferred backend.
 
-## Contact form
-The contact form is styled and ready for connection. To make it functional, link it to Netlify Forms, Formspree, or your own backend.
-
-## Styling
-Main controls live in `assets/css/style.css`, especially the `:root` variables, button styles, placeholder panels, and responsive breakpoints.
+## Deployment
+Deploy the contents of `src/` to any static host such as Netlify, Vercel, GitHub Pages, or Cloudflare Pages.

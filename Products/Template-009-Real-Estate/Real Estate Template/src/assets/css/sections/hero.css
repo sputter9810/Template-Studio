@@ -1,0 +1,27 @@
+/* SECTION: hero-section */
+.hero-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-visual {
+  min-width: 0;
+}
+
+.property-hero-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.property-hero-panel h2 {
+  font-size: clamp(1.6rem, 2.5vw, 2.3rem);
+  margin-bottom: 0.8rem;
+}
+
+@media (min-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1.05fr 0.95fr;
+  }
+}

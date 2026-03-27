@@ -1,0 +1,27 @@
+.card {
+  padding: 1.5rem;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--border);
+  background: var(--surface-strong);
+  box-shadow: var(--shadow);
+}
+.card-meta { margin-bottom: 0.75rem; font-size: 0.9rem; font-weight: 700; color: var(--primary-dark); }
+.testimonial-card strong { display: block; margin-top: 1rem; }
+.process-card .step-number {
+  display: inline-grid;
+  place-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-bottom: 1rem;
+  border-radius: 999px;
+  background: var(--soft);
+  color: var(--primary-dark);
+  font-weight: 800;
+}
+.feature-list { display: grid; gap: 1rem; margin-top: 1.5rem; }
+.feature-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.feature-item:last-child { border-bottom: 0; }
+.compact-list .feature-item { padding: 0.75rem 0; }

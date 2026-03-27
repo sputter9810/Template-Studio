@@ -1,0 +1,54 @@
+.visual-panel,
+.placeholder-panel {
+  min-height: 220px;
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(238,243,255,0.95));
+  box-shadow: var(--shadow);
+}
+
+.visual-hero {
+  min-height: 360px;
+}
+
+.visual-badge,
+.badge-pill,
+.hero-points li,
+.trust-items span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.3rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.72);
+}
+
+.visual-badge,
+.mock-label {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.visual-badge {
+  margin-bottom: 1rem;
+  background: rgba(49, 94, 251, 0.1);
+}
+
+.dashboard-mockup {
+  display: grid;
+  gap: 1rem;
+}
+
+.mock-card {
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.84);
+}
+
+.mock-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}

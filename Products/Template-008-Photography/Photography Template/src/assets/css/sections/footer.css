@@ -1,0 +1,18 @@
+.site-footer {
+  padding: 2rem 0 3rem;
+  border-top: 1px solid rgba(36, 27, 23, 0.08);
+}
+.footer-inner {
+  display: grid;
+  gap: 1.5rem;
+}
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.footer-links a,
+.brand-footer { text-decoration: none; font-weight: 700; }
+@media (min-width: 760px) {
+  .footer-inner { grid-template-columns: 1fr auto; align-items: start; }
+}

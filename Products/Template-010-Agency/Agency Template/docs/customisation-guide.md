@@ -1,44 +1,58 @@
 # Customisation Guide
 
-## 1. Update branding
-In `index.html`:
-- replace **Northstar Agency** with your brand name
-- replace the `NS` mark in the logo block if needed
+## Brand updates
+Edit `src/index.html` to change:
+- business name
+- navigation labels
+- headlines and body copy
+- service names
+- testimonial content
+- contact details
 
-## 2. Update colours
-In `assets/css/style.css`, edit the variables at the top of the file.
+## Colours and spacing
+Global design tokens live in:
+- `src/assets/css/base/variables.css`
 
-## 3. Update content
-Recommended order:
-1. hero headline and supporting copy
-2. services cards
-3. about section
-4. portfolio / gallery placeholders
-5. testimonials and FAQ
-6. contact details and CTA labels
+This is the main place to update colours, container width, border radius values, and shared shadow styles.
 
-## 4. Replace placeholder visuals
-This template uses styled placeholder panels instead of real images.
-You can:
-- replace the gallery panels with screenshots or case study covers
-- replace the hero mockup with a branded graphic
-- add images into `assets/images/` and update the HTML
+## Typography and base styling
+Base styling is split into:
+- `src/assets/css/base/reset.css`
+- `src/assets/css/base/typography.css`
+- `src/assets/css/base/utilities.css`
 
-## 5. Connect the form
-The contact form is currently static.
-To make it live, connect it to:
-- Netlify Forms
-- Formspree
-- Basin
-- a custom backend endpoint
+## Layout files
+Reusable layout rules live in:
+- `src/assets/css/layout/container.css`
 
-## 6. Adjust layout width
-Change the `--container` variable in `style.css`.
+## Components
+Shared UI pieces are broken into separate files in:
+- `src/assets/css/components/`
 
-## 7. Mobile navigation
-The mobile menu is handled by `assets/js/main.js`.
-Keep this file linked if you want the mobile nav toggle to work.
+These cover items like:
+- branding
+- navigation
+- buttons
+- cards
+- forms
+- visuals
+- footer
 
-## 8. Deployment
-Upload the full folder contents to your static host.
-The homepage is `index.html`.
+## Sections
+Section-specific styling lives in:
+- `src/assets/css/sections/`
+
+This makes it easier to adjust one part of the homepage without touching the rest of the template.
+
+## Images
+Place replacement images in:
+- `src/assets/images/`
+
+Then update the matching markup in `src/index.html`.
+
+## JavaScript
+Mobile navigation behaviour is in:
+- `src/assets/js/main.js`
+
+## Contact form
+The included contact form is static by default. Connect it to Netlify Forms, Formspree, Basin, or your own backend if you want live submissions.

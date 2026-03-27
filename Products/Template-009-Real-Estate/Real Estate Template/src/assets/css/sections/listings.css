@@ -1,0 +1,9 @@
+/* SECTION: services-or-menu-section */
+.services-section.services-grid .card-grid,
+.services-section.menu-grid .card-grid {
+  align-items: stretch;
+}
+
+.listing-card .card-meta {
+  font-weight: 700;
+}

@@ -1,0 +1,13 @@
+.cta-banner {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(255,255,255,0.84) 0%, rgba(243,230,218,0.9) 100%);
+  box-shadow: var(--shadow);
+}
+@media (min-width: 760px) {
+  .cta-banner { grid-template-columns: 1fr auto; }
+}

@@ -1,71 +1,68 @@
 # Customisation Guide
 
-## 1. Update the brand
+## Start files
 
-Edit the following in `index.html`:
+- Edit page content in `src/index.html`
+- Adjust styling through `src/assets/css/style.css` and the imported partials
+- Update mobile menu behaviour in `src/assets/js/main.js`
 
-- `Lens & Light`
-- the `L&L` brand mark
-- meta description and page title
+## CSS structure
 
-## 2. Replace placeholder content
+The CSS is modular:
 
-Swap the sample copy in each section with your own:
+- `base/` for resets, typography, utilities, and variables
+- `layout/` for the shared container
+- `components/` for reusable UI patterns
+- `sections/` for section-specific styling
 
-- hero headline and supporting text
-- services
-- about section
-- testimonials
+The main `style.css` file imports these files in order.
+
+## Typical updates
+
+### Brand
+
+Replace:
+
+- site name
+- initials / brand mark
+- meta description
+- page title
+
+### Copy
+
+Update:
+
+- headline and hero copy
+- service descriptions
+- about text
+- testimonial text
+- FAQ answers
 - contact details
 
-## 3. Replace visual placeholders
+### Visuals
 
-The hero and gallery use styled placeholder panels rather than actual images.
+Swap the placeholder panels for:
 
-You can replace these with:
+- real photography
+- background images
+- inline `<img>` elements
+- embedded galleries
 
-- background images via CSS
-- `<img>` elements inside the visual containers
-- cards that link through to a full portfolio
+### Colours and type
 
-## 4. Update colours
+Edit `src/assets/css/base/variables.css` to change:
 
-Open `assets/css/style.css` and edit the variables inside `:root`.
+- colours
+- spacing feel
+- border radii
+- max container width
 
-Suggested values to customise first:
+Typography rules live in `src/assets/css/base/typography.css`.
 
-- `--bg`
-- `--surface`
-- `--text`
-- `--primary`
-- `--accent`
-- `--border`
+## Contact form
 
-## 5. Update contact form behaviour
+The form is static by default. To make it live, connect it to your preferred service or backend.
 
-The form is currently static.
+## Deployment
 
-To make it functional, connect it to:
-
-- Formspree
-- Netlify Forms
-- Basin
-- a custom backend
-
-## 6. Mobile navigation
-
-The mobile menu toggle is handled in `assets/js/main.js`.
-
-If you do not need the mobile menu behaviour, you can remove the script reference and simplify the header.
-
-## 7. Deployment
-
-Upload the full folder to any static host.
-
-Required files:
-
-- `index.html`
-- `assets/css/style.css`
-- `assets/js/main.js`
-
-The `assets/images/` folder is included for future image replacement.
+Upload the full project to any static host such as Netlify, Vercel, or GitHub Pages.

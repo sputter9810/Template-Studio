@@ -5,14 +5,14 @@
 - Update the brand mark and brand name in the header and footer.
 
 ## Colour system
-Edit `src/css/base/variables.css` to change:
+Edit `src/assets/css/base/variables.css` to change:
 - `--primary` for the main brand colour
 - `--primary-strong` for button hover states
 - `--bg` and `--surface` for page background tones
 - `--border` for card and section outlines
 
 ## Typography
-The template uses Inter from Google Fonts. Replace the font import in `src/index.html` and update `src/css/base/typography.css` if you want a different font pairing.
+The template uses Inter from Google Fonts. Replace the font import in `src/index.html` and update `src/assets/css/base/typography.css` if you want a different font pairing.
 
 ## Content areas to replace
 - Hero heading and supporting text
@@ -26,7 +26,7 @@ The template uses Inter from Google Fonts. Replace the font import in `src/index
 
 ## Images
 The template currently uses neutral placeholder panels. Replace them by:
-1. Adding your images to `src/images/`
+1. Adding your images to `src/assets/images/`
 2. Replacing placeholder divs with `img` elements
 3. Keeping the same wrapper classes so layout styling stays intact
 
