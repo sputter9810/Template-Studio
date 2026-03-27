@@ -1,0 +1,5 @@
+.three-up { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.split-layout, .hero-grid, .contact-grid, .footer-grid, .cta-banner, .mock-row, .about-stat-grid, .trust-items { display: grid; gap: 1.5rem; }
+@media (max-width: 900px) {
+  .three-up { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,12 @@
+.contact-form { padding: 1.5rem; border-radius: 20px; border: 1px solid var(--border); background: var(--surface); box-shadow: var(--shadow); }
+.contact-form label { display: block; font-weight: 700; margin-bottom: 0.45rem; color: var(--text); }
+.contact-form input, .contact-form textarea, .contact-form select {
+  width: 100%; margin-bottom: 1rem; padding: 0.95rem 1rem; border-radius: 14px; border: 1px solid var(--border);
+  background: #fbfdff; color: var(--text);
+}
+.contact-form input:focus, .contact-form textarea:focus, .contact-form select:focus {
+  outline: 2px solid rgba(47, 143, 227, 0.18); border-color: var(--accent);
+}
+.contact-details { display: grid; gap: 0.8rem; margin-top: 1.5rem; list-style: none; }
+.contact-details strong { margin-right: 0.3rem; color: var(--text); }
+.form-note { margin-top: 0.75rem; font-size: 0.95rem; }

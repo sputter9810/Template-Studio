@@ -2,69 +2,72 @@
 
 ## Overview
 
-This template is designed for trainers, coaches, and personal trainers. It uses a one-page structure with reusable sections and shared component patterns.
+This template has been refactored into a modular structure so it is easier to maintain, reskin, and reuse for future service niches.
 
-## Update Branding
+## Update branding
 
-Edit these items in `index.html`:
+In `src/index.html`, update:
 
-- Brand name: `Momentum Coach`
-- Brand initials in the mark: `MC`
-- Contact email, phone, and location
-- CTA labels like `Book a free consult`
+- brand name: `Momentum Coach`
+- brand initials inside the logo mark: `MC`
+- contact email, phone, and location
+- CTA labels such as `Book a free consult` and `Enquire now`
 
-## Update Colours
+## Update colours
 
-Edit the CSS variables at the top of `assets/css/style.css`:
+The blue athletics palette is controlled in:
+
+`src/assets/css/base/variables.css`
+
+Key variables:
 
 - `--primary`
 - `--primary-dark`
+- `--primary-soft`
 - `--secondary`
+- `--accent`
 - `--bg`
 - `--surface`
 - `--border`
 
-## Swap Section Content
+## CSS structure
 
-Main sections in `index.html`:
+The main stylesheet is `src/assets/css/style.css`, which imports the modular files below:
+
+- `base/` for resets, variables, typography, and utility rules
+- `layout/` for container and shared layout foundations
+- `components/` for reusable UI patterns such as buttons, cards, navigation, and forms
+- `sections/` for section-specific styling like hero, about, CTA, and contact
+
+## Replace visual placeholders
+
+Add real images to:
+
+`src/assets/images/`
+
+Then replace the placeholder visual panels in the hero and about sections with `<img>` elements or background-image styles.
+
+## Connect the form
+
+The form is static by default. Connect it to services like:
+
+- Formspree
+- Netlify Forms
+- Basin
+- a custom backend
+- a CRM or booking workflow
+
+## Sections included
 
 - Hero
 - Trust Strip
-- Programs
+- Services
 - About
 - Process
-- Results / Testimonials
+- Testimonials
 - FAQ
 - CTA
 - Contact
 - Footer
 
-You can remove sections you do not need or duplicate card-based sections for more offers.
-
-## Add Real Images
-
-Place your images in `assets/images/` and replace placeholder visual panels with `<img>` elements or background-image styles.
-
-## Connect the Form
-
-The contact form is static by default. Connect it to:
-
-- Formspree
-- Netlify Forms
-- Basin
-- A custom backend
-- A booking or CRM workflow
-
-## Mobile Navigation
-
-The mobile menu is handled in `assets/js/main.js`.
-
-## Suggested Variants
-
-This template can also be adapted for:
-
-- online fitness coaches
-- mindset coaches
-- nutrition coaches
-- strength coaches
-- wellness practitioners
+You can remove, duplicate, or reorder these sections as needed.

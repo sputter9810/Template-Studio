@@ -1,0 +1,2 @@
+.about-section .split-layout { grid-template-columns: 1fr 1fr; align-items: start; }
+@media (max-width: 900px) { .about-section .split-layout { grid-template-columns: 1fr; } }
