@@ -62,3 +62,9 @@ docs/
 
 ## Notes
 This is a static front-end template. It does not include a CMS, live property feed, database, or backend form processing out of the box.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Navy, Black / Gold, Sage, White / Grey, Charcoal.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

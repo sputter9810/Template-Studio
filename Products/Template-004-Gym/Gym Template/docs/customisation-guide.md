@@ -61,3 +61,9 @@ This template currently uses stylised placeholder panels instead of real images.
 
 ## Forms
 The contact form is static by default. Connect it to your preferred form service or backend before going live.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Graphite, Neon Lime, Crimson, Deep Blue, White / Black.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

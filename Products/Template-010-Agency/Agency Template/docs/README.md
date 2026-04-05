@@ -62,3 +62,9 @@ The contact form is included as a styled static form. It does not submit anywher
 
 ## Hosting
 You can deploy this template to most static hosting providers, including Netlify, Vercel, GitHub Pages, and similar platforms.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Indigo, Cyan, Mono Black / White, Orange / Graphite, Violet.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

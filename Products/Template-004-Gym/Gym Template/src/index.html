@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body id="top">
+<body id="top" data-theme="graphite">
   <header class="site-header">
     <div class="container site-nav">
       <a class="brand" href="#top" aria-label="Forge Fitness home">
@@ -349,6 +349,43 @@
       </div>
     </div>
   </footer>
+
+
+  <aside class="theme-panel" aria-label="Colour schemes">
+    <div class="theme-panel-header">
+      <div>
+        <div class="theme-panel-title">Colour Schemes</div>
+        <div class="theme-panel-current">Current: <span id="theme-current-name">Graphite</span></div>
+      </div>
+    </div>
+    <div class="theme-options">
+      <button class="theme-option" type="button" data-theme-option="graphite" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #f97316, #fb923c);"></span>
+        <span class="theme-option-name">Graphite</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="neon-lime" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #84cc16, #bef264);"></span>
+        <span class="theme-option-name">Neon Lime</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="crimson" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #dc2626, #f87171);"></span>
+        <span class="theme-option-name">Crimson</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="deep-blue" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #2563eb, #60a5fa);"></span>
+        <span class="theme-option-name">Deep Blue</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="white-black" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #111111, #4b5563);"></span>
+        <span class="theme-option-name">White / Black</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+    </div>
+  </aside>
 
   <script src="assets/js/main.js"></script>
 </body>

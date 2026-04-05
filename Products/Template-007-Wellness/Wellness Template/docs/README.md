@@ -46,3 +46,9 @@ docs/
 - easy to customise for different wellness niches
 - placeholder panels are used instead of licensed photography
 - suitable for resale, adaptation, or client handoff workflows
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Sage, Sand, Lavender, Ocean, Soft Charcoal.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

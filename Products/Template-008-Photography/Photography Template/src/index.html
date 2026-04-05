@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body id="top">
+<body id="top" data-theme="monochrome">
   <header class="site-header">
     <div class="container site-nav">
       <a class="brand" href="#top" aria-label="Lens & Light home">
@@ -311,6 +311,43 @@
       </nav>
     </div>
   </footer>
+
+
+  <aside class="theme-panel" aria-label="Colour schemes">
+    <div class="theme-panel-header">
+      <div>
+        <div class="theme-panel-title">Colour Schemes</div>
+        <div class="theme-panel-current">Current: <span id="theme-current-name">Monochrome</span></div>
+      </div>
+    </div>
+    <div class="theme-options">
+      <button class="theme-option" type="button" data-theme-option="monochrome" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #111111, #555555);"></span>
+        <span class="theme-option-name">Monochrome</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="warm-beige" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #b08968, #d8b89c);"></span>
+        <span class="theme-option-name">Warm Beige</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="deep-olive" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #566246, #98a287);"></span>
+        <span class="theme-option-name">Deep Olive</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="slate" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #475569, #94a3b8);"></span>
+        <span class="theme-option-name">Slate</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="minimal-white" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #222222, #a8a8a8);"></span>
+        <span class="theme-option-name">Minimal White</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+    </div>
+  </aside>
 
   <script src="assets/js/main.js"></script>
 </body>

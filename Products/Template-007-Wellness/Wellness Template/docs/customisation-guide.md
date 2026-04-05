@@ -28,3 +28,9 @@ The contact form is presentational by default. Connect it to Netlify Forms, Form
 
 ## Deployment
 Deploy the contents of `src/` to any static host such as Netlify, Vercel, GitHub Pages, or Cloudflare Pages.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Sage, Sand, Lavender, Ocean, Soft Charcoal.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

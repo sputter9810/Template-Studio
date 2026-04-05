@@ -57,3 +57,9 @@ If you add, remove, or rename sections in the page, make sure you also update th
 ## 8. Mobile menu
 The mobile menu script is in `src/assets/js/main.js`.
 If you change the `.nav-toggle` button or `.nav-links` structure, update the script to match.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Navy, Black / Gold, Sage, White / Grey, Charcoal.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

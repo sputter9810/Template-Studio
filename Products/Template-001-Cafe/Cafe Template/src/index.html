@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body data-theme="espresso" data-theme="espresso">
   <header class="site-header">
     <div class="container site-nav">
       <a class="brand" href="#top" aria-label="Harbour & Hearth Cafe home">
@@ -337,6 +337,48 @@
       </div>
     </div>
   </footer>
+
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cycle colour scheme">
+    <span class="theme-toggle-label"><span class="theme-toggle-swatch" aria-hidden="true"></span><span id="theme-name" class="theme-toggle-name">Espresso</span></span>
+    <span class="theme-toggle-hint">Change theme</span>
+  </button>
+
+
+  <aside class="theme-panel" aria-label="Colour schemes">
+    <div class="theme-panel-header">
+      <div>
+        <div class="theme-panel-title">Colour Schemes</div>
+        <div class="theme-panel-current">Current: <span id="theme-current-name">Espresso</span></div>
+      </div>
+    </div>
+    <div class="theme-options">
+      <button class="theme-option" type="button" data-theme-option="espresso" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #a65a3a, #c17a5b);"></span>
+        <span class="theme-option-name">Espresso</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="sage" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #5d7f67, #8cab90);"></span>
+        <span class="theme-option-name">Sage</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="terracotta" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #c96b4b, #e19a77);"></span>
+        <span class="theme-option-name">Terracotta</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="cream" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #b28a4f, #d1b179);"></span>
+        <span class="theme-option-name">Cream</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="charcoal" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #c08b5c, #e0b07f);"></span>
+        <span class="theme-option-name">Charcoal</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+    </div>
+  </aside>
 
   <script src="assets/js/main.js"></script>
 </body>

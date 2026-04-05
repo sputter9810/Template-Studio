@@ -1,5 +1,7 @@
 # Harbour & Hearth Cafe Template
 
+**Current version:** 1.1.0
+
 ## What this template is
 Harbour & Hearth is a modern one-page website template designed for cafes, brunch venues, bakeries, espresso bars, and boutique hospitality businesses.
 
@@ -22,10 +24,13 @@ This template is made to help you launch a polished online presence quickly. It 
 - contact section with demo form
 - organised CSS structure
 - simple JavaScript for mobile navigation
+- quick colour theme switcher with 5 cafe-relevant palettes
+- versioned changelog
 
 ## Folder overview
 - `src/` contains the website files
 - `docs/customisation-guide.md` explains how to edit the template
+- `docs/CHANGELOG.md` lists version history and updates
 - `docs/README.md` is this customer-facing overview
 
 ## Editing the template
@@ -33,3 +38,9 @@ You can update text, colours, imagery, and section order without changing the ov
 
 ## Important note
 This is a static HTML/CSS/JS template. The form is included as a styled demo and can be connected to your preferred backend, form handler, or booking tool.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Espresso, Sage, Terracotta, Cream, Charcoal.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

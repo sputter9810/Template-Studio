@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
-  <body id="top">
+  <body id="top" data-theme="navy">
     <header class="site-header">
       <div class="container site-nav">
         <a class="brand" href="#top" aria-label="Northline Trade Co home">
@@ -309,6 +309,43 @@
       </div>
     </footer>
 
-    <script src="assets/js/main.js"></script>
+  
+  <aside class="theme-panel" aria-label="Colour schemes">
+    <div class="theme-panel-header">
+      <div>
+        <div class="theme-panel-title">Colour Schemes</div>
+        <div class="theme-panel-current">Current: <span id="theme-current-name">Navy</span></div>
+      </div>
+    </div>
+    <div class="theme-options">
+      <button class="theme-option" type="button" data-theme-option="navy" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #1e3a5f, #4f83c2);"></span>
+        <span class="theme-option-name">Navy</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="safety-orange" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #dd6b20, #f6ad55);"></span>
+        <span class="theme-option-name">Safety Orange</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="steel-grey" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #4a5568, #a0aec0);"></span>
+        <span class="theme-option-name">Steel Grey</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="forest" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #2f6f57, #68b49b);"></span>
+        <span class="theme-option-name">Forest</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="black-gold" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #c8a24d, #f0cd78);"></span>
+        <span class="theme-option-name">Black / Gold</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+    </div>
+  </aside>
+
+  <script src="assets/js/main.js"></script>
   </body>
 </html>

@@ -56,3 +56,9 @@ Mobile navigation behaviour is in:
 
 ## Contact form
 The included contact form is static by default. Connect it to Netlify Forms, Formspree, Basin, or your own backend if you want live submissions.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Indigo, Cyan, Mono Black / White, Orange / Graphite, Violet.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

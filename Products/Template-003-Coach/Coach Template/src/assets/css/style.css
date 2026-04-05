@@ -5,6 +5,7 @@
 @import url("./layout/container.css");
 @import url("./components/brand.css");
 @import url("./components/navigation.css");
+@import url("./components/theme-switcher.css");
 @import url("./components/buttons.css");
 @import url("./components/hero-block.css");
 @import url("./components/section-wrapper.css");

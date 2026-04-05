@@ -49,3 +49,9 @@ docs/
 This is a static template. The contact form is presentational by default and will need to be connected to your preferred form handling service, booking flow, or backend.
 
 Images shown in the design are represented with styled content panels, so you can replace them with your own photography or brand visuals easily.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Red / Black, Electric Blue, Emerald, Sand, Purple / Black.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

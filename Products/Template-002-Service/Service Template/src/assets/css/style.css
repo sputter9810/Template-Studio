@@ -22,3 +22,5 @@
 @import url("sections/cta.css");
 @import url("sections/faq.css");
 @import url("sections/contact.css");
+
+@import url("./components/theme-switcher.css");

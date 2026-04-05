@@ -66,3 +66,9 @@ The form is static by default. To make it live, connect it to your preferred ser
 ## Deployment
 
 Upload the full project to any static host such as Netlify, Vercel, or GitHub Pages.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Monochrome, Warm Beige, Deep Olive, Slate, Minimal White.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

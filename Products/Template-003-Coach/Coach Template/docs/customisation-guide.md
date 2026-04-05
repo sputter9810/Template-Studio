@@ -71,3 +71,9 @@ The form is static by default. Connect it to services like:
 - Footer
 
 You can remove, duplicate, or reorder these sections as needed.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Red / Black, Electric Blue, Emerald, Sand, Purple / Black.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

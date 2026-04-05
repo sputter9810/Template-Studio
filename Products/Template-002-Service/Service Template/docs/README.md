@@ -71,3 +71,9 @@ This is a static template built with:
 - JavaScript
 
 No build tools or frameworks are required. You can open the homepage directly in a browser or upload the `src` folder to your preferred static hosting platform.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Navy, Safety Orange, Steel Grey, Forest, Black / Gold.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

@@ -29,3 +29,9 @@ This is a static HTML, CSS, and JavaScript template. It does not require a frame
 
 ## Important note
 The included contact form is pre-styled but does not send submissions on its own. A form service or backend connection is needed for live enquiries.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Blush, Rose Gold, Ivory, Sage, Charcoal.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body id="top">
+<body id="top" data-theme="indigo">
   <header class="site-header">
     <div class="container site-nav">
       <a class="brand" href="#top" aria-label="Northstar Agency home">
@@ -349,6 +349,43 @@
       </div>
     </div>
   </footer>
+
+
+  <aside class="theme-panel" aria-label="Colour schemes">
+    <div class="theme-panel-header">
+      <div>
+        <div class="theme-panel-title">Colour Schemes</div>
+        <div class="theme-panel-current">Current: <span id="theme-current-name">Indigo</span></div>
+      </div>
+    </div>
+    <div class="theme-options">
+      <button class="theme-option" type="button" data-theme-option="indigo" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #4f46e5, #818cf8);"></span>
+        <span class="theme-option-name">Indigo</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="cyan" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #0891b2, #67e8f9);"></span>
+        <span class="theme-option-name">Cyan</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="mono-black-white" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #111111, #f5f5f5);"></span>
+        <span class="theme-option-name">Mono Black / White</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="orange-graphite" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #ea580c, #fb923c);"></span>
+        <span class="theme-option-name">Orange / Graphite</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+      <button class="theme-option" type="button" data-theme-option="violet" aria-pressed="false">
+        <span class="theme-option-swatch" aria-hidden="true" style="background: linear-gradient(135deg, #7c3aed, #c4b5fd);"></span>
+        <span class="theme-option-name">Violet</span>
+        <span class="theme-option-check" aria-hidden="true">✓</span>
+      </button>
+    </div>
+  </aside>
 
   <script src="assets/js/main.js"></script>
 </body>

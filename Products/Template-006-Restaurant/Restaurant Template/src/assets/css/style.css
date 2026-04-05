@@ -23,3 +23,5 @@
 @import url('./sections/hero-section.css');
 @import url('./sections/services-or-menu-section.css');
 @import url('./sections/testimonials-section.css');
+
+@import url("./components/theme-switcher.css");

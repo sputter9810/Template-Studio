@@ -2,9 +2,9 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(251, 246, 240, 0.86);
+  background: var(--header-bg);
   backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(220, 205, 189, 0.8);
+  border-bottom: 1px solid var(--header-border);
 }
 
 .site-nav {
@@ -29,7 +29,7 @@
   width: 2.4rem;
   height: 2.4rem;
   border-radius: 0.9rem;
-  background: linear-gradient(135deg, var(--accent), #c17a5b);
+  background: linear-gradient(135deg, var(--accent), var(--brand-gradient-end));
   color: #fff;
   box-shadow: var(--shadow);
 }

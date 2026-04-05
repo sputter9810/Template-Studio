@@ -55,3 +55,9 @@ Harvest Table is a static one-page website template for restaurants, bistros, ca
 
 ## Deployment
 This template can be uploaded to any static hosting platform, including Netlify, Vercel, GitHub Pages, or standard shared hosting.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Wine, Olive, Cream, Slate, Terracotta.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

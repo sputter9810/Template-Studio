@@ -18,3 +18,80 @@
   --container-width: 1160px;
   --container-padding: 1.25rem;
 }
+
+/* Theme variants */
+
+body[data-theme="blush"] {
+  --color-bg: #fff8fb;
+  --color-surface: #ffffff;
+  --color-surface-strong: #fdeef3;
+  --color-text: #4a3140;
+  --color-text-soft: #8f6a7b;
+  --border: #f0d6e1;
+  --color-accent: #d98ea8;
+  --color-accent-deep: #b86887;
+  --color-accent-soft: #f7d7e2;
+  --color-accent-strong: #efb4c6;
+  --shadow-card: 0 24px 60px rgba(74,49,64,0.10);
+  --shadow-soft: 0 14px 40px rgba(74,49,64,0.08);
+}
+
+body[data-theme="rose-gold"] {
+  --color-bg: #fff9f7;
+  --color-surface: #ffffff;
+  --color-surface-strong: #fdf0ea;
+  --color-text: #4b352f;
+  --color-text-soft: #8f6d64;
+  --border: #efd9cf;
+  --color-accent: #c58b7b;
+  --color-accent-deep: #a56e5f;
+  --color-accent-soft: #f4d9d0;
+  --color-accent-strong: #e8b8a8;
+  --shadow-card: 0 24px 60px rgba(75,53,47,0.10);
+  --shadow-soft: 0 14px 40px rgba(75,53,47,0.08);
+}
+
+body[data-theme="ivory"] {
+  --color-bg: #fffdf8;
+  --color-surface: #ffffff;
+  --color-surface-strong: #faf3e3;
+  --color-text: #433829;
+  --color-text-soft: #7f715d;
+  --border: #e9ddc1;
+  --color-accent: #b89b64;
+  --color-accent-deep: #927a4d;
+  --color-accent-soft: #f2e7c7;
+  --color-accent-strong: #e8d7b1;
+  --shadow-card: 0 24px 60px rgba(67,56,41,0.10);
+  --shadow-soft: 0 14px 40px rgba(67,56,41,0.08);
+}
+
+body[data-theme="sage"] {
+  --color-bg: #f7fbf8;
+  --color-surface: #ffffff;
+  --color-surface-strong: #edf5ef;
+  --color-text: #2d4034;
+  --color-text-soft: #6d8374;
+  --border: #d7e5da;
+  --color-accent: #7d9a85;
+  --color-accent-deep: #5f7866;
+  --color-accent-soft: #dcebe0;
+  --color-accent-strong: #b9cdbd;
+  --shadow-card: 0 24px 60px rgba(45,64,52,0.10);
+  --shadow-soft: 0 14px 40px rgba(45,64,52,0.08);
+}
+
+body[data-theme="charcoal"] {
+  --color-bg: #161616;
+  --color-surface: #202020;
+  --color-surface-strong: #2a2a2a;
+  --color-text: #f8f3ec;
+  --color-text-soft: #cbbbab;
+  --border: #343434;
+  --color-accent: #f0c8a2;
+  --color-accent-deep: #dba871;
+  --color-accent-soft: #3a3028;
+  --color-accent-strong: #f6dcc1;
+  --shadow-card: 0 24px 60px rgba(0,0,0,0.35);
+  --shadow-soft: 0 14px 40px rgba(0,0,0,0.28);
+}

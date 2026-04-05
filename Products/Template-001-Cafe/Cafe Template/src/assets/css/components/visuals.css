@@ -5,6 +5,7 @@
   padding: 1.25rem;
   background: var(--surface);
   box-shadow: var(--shadow);
+  transition: background 0.25s ease, border-color 0.25s ease;
 }
 
 .visual-hero {
@@ -15,11 +16,11 @@
 }
 
 .visual-panel-soft {
-  background: linear-gradient(135deg, #f7efe6, #ead8c7);
+  background: linear-gradient(135deg, var(--panel-soft-start), var(--panel-soft-end));
 }
 
 .visual-panel-warm {
-  background: linear-gradient(135deg, #f8e8d5, #e8c3a0);
+  background: linear-gradient(135deg, var(--panel-warm-start), var(--panel-warm-end));
 }
 
 .visual-badge,
@@ -30,12 +31,11 @@
   padding: 0.4rem 0.75rem;
   border-radius: 999px;
   font-weight: 700;
-  background: rgba(255,255,255,0.7);
-  border: 1px solid rgba(255,255,255,0.85);
+  background: var(--badge-bg);
+  border: 1px solid var(--badge-border);
 }
 
 .badge-pill {
   margin-top: 1rem;
   border-color: var(--border);
-  background: rgba(255,255,255,0.8);
 }

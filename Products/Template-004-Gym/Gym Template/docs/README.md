@@ -49,3 +49,9 @@ No build tools or frameworks are required.
 - Images are represented with styled placeholder panels for easy reuse and faster customisation.
 - The form is a static demo and should be connected to a live backend or form handler before production use.
 - The template is built to be easy to rebrand for different fitness businesses.
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Graphite, Neon Lime, Crimson, Deep Blue, White / Black.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.

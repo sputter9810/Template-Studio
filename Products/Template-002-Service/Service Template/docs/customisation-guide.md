@@ -95,3 +95,9 @@ The contact form is currently static. To make it live, connect it to a service s
 4. Rewrite the services and about sections for the chosen niche
 5. Connect the form if needed
 6. Remove any optional sections you do not want
+
+
+## Theme selector
+This template now includes a built-in theme selector panel with five colour schemes: Navy, Safety Orange, Steel Grey, Forest, Black / Gold.
+
+To change the default theme, update the `data-theme` value on the `<body>` tag and the `defaultTheme` value in `src/assets/js/main.js`.
