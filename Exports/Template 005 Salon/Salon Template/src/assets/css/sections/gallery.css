@@ -1,0 +1,27 @@
+.gallery-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.gallery-item {
+  min-height: 220px;
+  padding: 1rem;
+  display: flex;
+  align-items: end;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  color: var(--color-accent-strong);
+  font-weight: 700;
+  box-shadow: var(--shadow-card);
+}
+
+.gallery-tone-1 { background: linear-gradient(180deg, #f7e6e1, #ecd2ca); }
+.gallery-tone-2 { background: linear-gradient(180deg, #efe1db, #e4cbc2); }
+.gallery-tone-3 { background: linear-gradient(180deg, #f8efeb, #ead8d1); }
+.gallery-tone-4 { background: linear-gradient(180deg, #f2e3de, #dbc0b8); }
+
+@media (min-width: 760px) {
+  .gallery-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

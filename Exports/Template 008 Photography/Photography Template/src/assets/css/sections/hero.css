@@ -1,0 +1,31 @@
+.hero-section { padding-top: 6rem; }
+.hero-grid { display: grid; gap: 2rem; align-items: center; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1.75rem 0; }
+.hero-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.hero-points li {
+  padding: 0.7rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.55);
+  font-weight: 700;
+}
+.hero-stats { display: grid; gap: 1rem; margin-top: 1.5rem; }
+.hero-stat {
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.66);
+}
+.hero-stat strong { display: block; margin-bottom: 0.25rem; font-size: 1.35rem; color: var(--text); }
+.hero-text { max-width: 56ch; font-size: 1.08rem; }
+@media (min-width: 760px) {
+  .hero-grid { grid-template-columns: 1.05fr 0.95fr; }
+  .hero-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

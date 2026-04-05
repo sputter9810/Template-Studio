@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title3 desc3">
+  <title id="title3">Gallery placeholder 3</title>
+  <desc id="desc3">Abstract project image placeholder</desc>
+  <rect width="800" height="600" rx="32" fill="#ffffff"/>
+  <rect x="40" y="40" width="720" height="520" rx="28" fill="#eef2f7" stroke="#d7dee7"/>
+  <circle cx="200" cy="180" r="70" fill="#fed7aa"/>
+  <rect x="320" y="130" width="240" height="32" rx="16" fill="#f97316" opacity="0.85"/>
+  <rect x="320" y="190" width="180" height="20" rx="10" fill="#cbd5e1"/>
+  <rect x="120" y="320" width="560" height="150" rx="24" fill="#dbeafe"/>
+</svg>

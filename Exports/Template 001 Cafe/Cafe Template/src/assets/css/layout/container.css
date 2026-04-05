@@ -1,0 +1,18 @@
+.container {
+  width: min(calc(100% - 2rem), var(--container));
+  margin: 0 auto;
+}
+
+.split-layout,
+.contact-grid,
+.hero-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .hero-grid { grid-template-columns: 1.05fr 0.95fr; }
+  .split-layout { grid-template-columns: 0.95fr 1.05fr; }
+  .contact-grid { grid-template-columns: 0.95fr 1.05fr; align-items: start; }
+}

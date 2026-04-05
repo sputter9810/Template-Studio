@@ -1,0 +1,30 @@
+.site-footer {
+  background: #2d241f;
+  color: rgba(255,255,255,0.88);
+  padding: 4rem 0;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.site-footer .brand {
+  margin-bottom: 1rem;
+}
+
+.site-footer h3 {
+  color: #fff;
+}
+
+.site-footer a {
+  color: inherit;
+}
+
+.site-footer ul {
+  padding-left: 1rem;
+}
+
+@media (min-width: 760px) {
+  .footer-grid { grid-template-columns: 1.2fr 0.8fr 0.8fr; }
+}

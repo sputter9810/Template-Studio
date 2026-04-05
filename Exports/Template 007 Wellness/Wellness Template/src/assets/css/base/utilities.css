@@ -1,0 +1,22 @@
+.section { padding: 5rem 0; }
+.section-header { max-width: 760px; margin-bottom: 2rem; }
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary-dark);
+}
+.hero-text,
+.section-header p,
+.about-copy > p,
+.contact-copy p,
+.site-footer p,
+.form-note,
+.card p,
+.visual-panel p,
+.faq-item p,
+.contact-details,
+.site-footer li { color: var(--muted); }

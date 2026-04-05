@@ -1,0 +1,40 @@
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.75rem 0;
+}
+.hero-points {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+.hero-points li,
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  font-weight: 700;
+  border: 1px solid var(--border, #ddd);
+  background: rgba(255,255,255,0.72);
+}
+.hero-stats {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.hero-stat {
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  border: 1px solid var(--border, #ddd);
+  background: rgba(255,255,255,0.72);
+}
+.hero-stat strong { display: block; margin-bottom: 0.25rem; }
+
+@media (min-width: 760px) {
+  .hero-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

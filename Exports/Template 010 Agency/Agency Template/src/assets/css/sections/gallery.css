@@ -1,0 +1,11 @@
+.gallery-grid {
+  gap: 1rem;
+}
+
+.gallery-item {
+  min-height: 220px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  text-align: center;
+}

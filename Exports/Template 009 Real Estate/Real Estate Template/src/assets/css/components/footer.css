@@ -1,0 +1,33 @@
+/* COMPONENT: footer */
+.site-footer {
+  padding: 2rem 0 3rem;
+  border-top: 1px solid var(--border);
+}
+
+.footer-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.footer-list a:hover,
+.footer-list a:focus-visible {
+  color: var(--text);
+}
+
+@media (min-width: 760px) {
+  .footer-grid {
+    grid-template-columns: 1.2fr 0.8fr 0.8fr;
+  }
+}

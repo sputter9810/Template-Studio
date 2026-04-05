@@ -1,0 +1,43 @@
+.hero-grid {
+  gap: 2rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.75rem 0;
+}
+
+.hero-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero-stats {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.hero-stat {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.74);
+}
+
+.hero-stat strong,
+.about-stat-grid strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.hero-text {
+  font-size: 1.05rem;
+  max-width: 60ch;
+}

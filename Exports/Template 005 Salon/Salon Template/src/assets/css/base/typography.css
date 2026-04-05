@@ -1,0 +1,21 @@
+body {
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--color-accent-strong);
+}
+
+h1 { font-size: clamp(2.6rem, 5vw, 4.75rem); }
+h2 { font-size: clamp(2rem, 4vw, 3rem); }
+h3 { font-size: 1.2rem; }
+
+p, li, summary, input, select, textarea {
+  color: var(--color-text-soft);
+}
+
+p + p { margin-top: 1rem; }

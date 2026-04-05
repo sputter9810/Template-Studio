@@ -1,0 +1,35 @@
+.hero-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-section {
+  padding-top: 6.5rem;
+}
+
+.hero-visual,
+.hero-placeholder {
+  min-height: 360px;
+  border-radius: 28px;
+}
+
+.salon-hero-visual {
+  position: relative;
+}
+
+.hero-image-card {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+  padding: 1.25rem;
+  background: linear-gradient(180deg, #edd5cf 0%, #f8ebe6 100%);
+  border: 1px solid rgba(255,255,255,0.75);
+  box-shadow: var(--shadow-soft);
+}
+
+@media (min-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1.05fr 0.95fr;
+  }
+}

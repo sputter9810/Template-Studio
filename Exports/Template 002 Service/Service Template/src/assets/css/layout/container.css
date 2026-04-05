@@ -1,0 +1,15 @@
+.container {
+  width: min(var(--container), calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.split-layout {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 900px) {
+  .split-layout {
+    grid-template-columns: 0.95fr 1.05fr;
+  }
+}

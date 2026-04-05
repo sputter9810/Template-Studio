@@ -1,0 +1,15 @@
+.contact-copy {
+  max-width: 560px;
+}
+
+.contact-details {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-details strong {
+  margin-right: 0.3rem;
+}

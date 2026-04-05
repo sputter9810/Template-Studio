@@ -1,0 +1,36 @@
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: linear-gradient(180deg, #f7f4ef 0%, #f4f1eb 100%);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+h1 { font-size: clamp(2.6rem, 5vw, 4.8rem); max-width: 12ch; }
+h2 { font-size: clamp(2rem, 3vw, 3rem); max-width: 18ch; }
+h3 { font-size: 1.2rem; }
+
+p, li, span, label, input, textarea, select { font-size: 1rem; }
+
+.section-header p,
+.hero-text,
+.contact-copy > p,
+.card p,
+.faq-item p,
+.footer-grid p,
+.feature-item p,
+.mock-card p { color: var(--muted); }
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--primary);
+}

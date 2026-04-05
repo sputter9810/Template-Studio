@@ -1,0 +1,41 @@
+.visual-panel {
+  min-height: 220px;
+  border-radius: 24px;
+  border: 1px solid var(--border);
+  padding: 1.25rem;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.visual-hero {
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.visual-panel-soft {
+  background: linear-gradient(135deg, #f7efe6, #ead8c7);
+}
+
+.visual-panel-warm {
+  background: linear-gradient(135deg, #f8e8d5, #e8c3a0);
+}
+
+.visual-badge,
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  font-weight: 700;
+  background: rgba(255,255,255,0.7);
+  border: 1px solid rgba(255,255,255,0.85);
+}
+
+.badge-pill {
+  margin-top: 1rem;
+  border-color: var(--border);
+  background: rgba(255,255,255,0.8);
+}
