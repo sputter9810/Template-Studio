@@ -62,3 +62,12 @@ public/
 
 ## Notes
 [Anything else the model should know about your workflow.]
+
+## Scaling Rules
+- Each base template must support 3+ niche variants
+- Variants should reuse 70–80% of structure
+- Only content, imagery, and section emphasis should change
+
+## Output Targets
+- Minimum 3 templates per week
+- Reuse before creating new components

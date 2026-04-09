@@ -51,3 +51,20 @@
 
 ## Notes / Special Instructions
 [Any special notes for this specific template.]
+
+## Conversion Strategy
+[How does this site make money?]
+
+## Primary User Action
+[Single most important action]
+
+## Secondary Actions
+[List supporting actions]
+
+## Trust Mechanisms
+[Reviews, stats, logos, guarantees]
+
+## Content Priority Order
+1. [Most important]
+2. [Second]
+3. [Third]

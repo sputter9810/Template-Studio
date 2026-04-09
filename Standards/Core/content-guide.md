@@ -55,3 +55,14 @@
 
 ## Notes
 [Any extra content guidance.]
+
+## Conversion Copy Rules
+- Always lead with outcome, not feature
+- Speak directly to the customer problem
+- Use simple, non-technical language
+- Avoid filler phrases
+
+## CTA Strategy
+- Primary CTA repeated every 1–2 sections
+- Use action + benefit phrasing
+- Avoid generic “Learn More”

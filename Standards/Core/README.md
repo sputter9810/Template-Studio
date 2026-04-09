@@ -9,6 +9,7 @@ This folder contains reusable template files for defining a website production s
 - `technical-standards.md`
 - `content-guide.md`
 - `qa-checklist.md`
+- `template-standard.md`
 
 ## How To Use
 1. Duplicate this folder for a new website/template project.
