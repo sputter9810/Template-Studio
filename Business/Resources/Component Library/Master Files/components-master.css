@@ -339,3 +339,54 @@
 .media-meta {
   padding: 0.25rem 0;
 }
+
+
+/* COMPONENT: hours-list */
+.hours-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.85rem;
+}
+.hours-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--border, #ddd);
+  border-radius: 16px;
+}
+.hours-list strong { white-space: nowrap; }
+
+/* COMPONENT: menu-highlight */
+.menu-highlight {
+  position: relative;
+  overflow: hidden;
+}
+.menu-highlight::after {
+  content: "";
+  position: absolute;
+  inset: auto -20% -35% auto;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 999px;
+  background: currentColor;
+  opacity: 0.06;
+}
+
+/* COMPONENT: reservation-note */
+.reservation-note {
+  padding: 1rem 1.1rem;
+  border-left: 4px solid currentColor;
+  border-radius: 0 14px 14px 0;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+/* COMPONENT: badge-strip */
+.badge-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}

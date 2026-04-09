@@ -1,0 +1,14 @@
+.menu-highlight {
+  position: relative;
+  overflow: hidden;
+}
+.menu-highlight::after {
+  content: "";
+  position: absolute;
+  inset: auto -20% -35% auto;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 999px;
+  background: currentColor;
+  opacity: 0.06;
+}

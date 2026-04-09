@@ -1,9 +1,9 @@
-# Component Library v5
+# Component Library v6
 
-Expanded from v4 to better support the next 10 template niches:
-CrossFit gym, yoga studio, barber shop, electrician, plumber, nail studio, Airbnb / holiday rental, online coach, podcast website, and wedding planner.
+Expanded from v5 to support the next requested 10 niches:
+calisthenics gym, pilates studio, boxing / martial arts gym, day spa, massage clinic, coffee roaster, food truck, bakery, fine dining, and takeaway.
 
-This pass keeps the original shared system intact and adds reusable patterns that are especially helpful for schedule-led, team-led, pricing-led, proof-led, media-led, and location-led landing pages.
+This pass keeps the shared system intact and adds more reusable patterns for opening hours, signature offers, hospitality-led CTAs, quick-scan badges, and practical location/reservation content.
 
 ## Included
 - components/
@@ -18,20 +18,13 @@ This pass keeps the original shared system intact and adds reusable patterns tha
 - sections-master.html
 - sections-master.css
 
-## Added in v5
-- pricing-card
-- team-card
-- schedule-table
-- results-grid
-- amenity-list
-- media-embed
-- pricing-section
-- team-section
-- schedule-section
-- results-section
-- amenities-section
-- episodes-section
-- coverage-section
+## Added in v6
+- hours-list
+- menu-highlight
+- reservation-note
+- badge-strip
+- hours-location-section
+- signature-offers-section
 
 ## Why this update matters
-The original library covered most brochure-style one-page templates well. The new batch introduces more conversion patterns around memberships, packages, schedules, coaches/staff, proof/results, location coverage, amenities, and creator media. Those patterns are now in core so future template production can move faster without rebuilding them niche by niche.
+The library already handled general brochure, pricing, team, gallery, and schedule patterns well. This update improves hospitality, wellness, and local-service use cases by making it easier to show opening times, featured offers, booking notes, and practical “visit us / find us / reserve” information without building one-off sections from scratch.

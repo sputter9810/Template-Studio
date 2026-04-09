@@ -27,6 +27,10 @@
 - results-grid
 - amenity-list
 - media-embed
+- hours-list
+- menu-highlight
+- reservation-note
+- badge-strip
 
 ## Core Sections
 - hero-section
@@ -49,3 +53,5 @@
 - amenities-section
 - episodes-section
 - coverage-section
+- hours-location-section
+- signature-offers-section

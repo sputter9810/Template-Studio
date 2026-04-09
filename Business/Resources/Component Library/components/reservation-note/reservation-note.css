@@ -1,0 +1,6 @@
+.reservation-note {
+  padding: 1rem 1.1rem;
+  border-left: 4px solid currentColor;
+  border-radius: 0 14px 14px 0;
+  background: rgba(0, 0, 0, 0.03);
+}

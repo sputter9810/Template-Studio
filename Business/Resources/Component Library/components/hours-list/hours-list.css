@@ -1,0 +1,17 @@
+.hours-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.85rem;
+}
+.hours-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--border, #ddd);
+  border-radius: 16px;
+}
+.hours-list strong { white-space: nowrap; }

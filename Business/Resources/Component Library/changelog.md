@@ -1,5 +1,15 @@
 # Changelog
 
+## v6
+- added hours-list component
+- added menu-highlight component
+- added reservation-note component
+- added badge-strip component
+- added hours-location-section
+- added signature-offers-section
+- updated README, library index, variants, extraction notes, and niche coverage
+- refreshed master files to include v6 additions
+
 ## v5
 - added pricing-card component
 - added team-card component
