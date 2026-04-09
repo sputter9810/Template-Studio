@@ -1,0 +1,12 @@
+.amenity-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.85rem;
+}
+.amenity-list li {
+  padding: 0.95rem 1rem;
+  border-radius: 16px;
+  border: 1px solid var(--border, #ddd);
+}

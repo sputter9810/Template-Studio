@@ -21,6 +21,12 @@
 - visual-stack
 - listing-meta
 - dashboard-mockup
+- pricing-card
+- team-card
+- schedule-table
+- results-grid
+- amenity-list
+- media-embed
 
 ## Core Sections
 - hero-section
@@ -36,3 +42,10 @@
 ## Expanded Sections
 - portfolio-section
 - listings-section
+- pricing-section
+- team-section
+- schedule-section
+- results-section
+- amenities-section
+- episodes-section
+- coverage-section

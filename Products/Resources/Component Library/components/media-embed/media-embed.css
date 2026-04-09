@@ -1,0 +1,15 @@
+.media-embed {
+  display: grid;
+  gap: 1rem;
+}
+.media-screen {
+  min-height: 260px;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--border, #ddd);
+}
+.media-meta {
+  padding: 0.25rem 0;
+}

@@ -1,0 +1,26 @@
+.pricing-card {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+.pricing-amount {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1;
+}
+.pricing-amount span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.pricing-features {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+.pricing-card-compact .pricing-features,
+.pricing-card-compact .btn,
+.pricing-card-compact .card-meta {
+  display: none;
+}

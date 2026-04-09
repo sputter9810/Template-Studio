@@ -194,3 +194,148 @@
 @media (min-width: 760px) {
   .footer-grid { grid-template-columns: 1.2fr 0.8fr 0.8fr; }
 }
+
+
+/* COMPONENT: pricing-card */
+.pricing-card {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+.pricing-amount {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1;
+}
+.pricing-amount span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.pricing-features {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+.pricing-card-compact .pricing-features,
+.pricing-card-compact .btn,
+.pricing-card-compact .card-meta {
+  display: none;
+}
+
+
+/* COMPONENT: team-card */
+.team-card {
+  display: grid;
+  gap: 1rem;
+}
+.team-avatar {
+  display: inline-grid;
+  place-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--border, #ddd);
+  font-weight: 800;
+}
+.team-tags {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.team-tags li {
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border, #ddd);
+}
+
+
+/* COMPONENT: schedule-table */
+.schedule-card {
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--border, #ddd);
+}
+.schedule-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.schedule-table-wrap {
+  overflow-x: auto;
+}
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.schedule-table th,
+.schedule-table td {
+  padding: 0.85rem 0.9rem;
+  border-bottom: 1px solid var(--border, #ddd);
+  text-align: left;
+}
+.schedule-table th {
+  font-size: 0.95rem;
+}
+
+
+/* COMPONENT: results-grid */
+.results-grid {
+  display: grid;
+  gap: 1rem;
+}
+.result-card {
+  padding: 1.25rem;
+  border-radius: 18px;
+  border: 1px solid var(--border, #ddd);
+}
+.result-card strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+@media (min-width: 760px) {
+  .results-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
+/* COMPONENT: amenity-list */
+.amenity-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.85rem;
+}
+.amenity-list li {
+  padding: 0.95rem 1rem;
+  border-radius: 16px;
+  border: 1px solid var(--border, #ddd);
+}
+
+
+/* COMPONENT: media-embed */
+.media-embed {
+  display: grid;
+  gap: 1rem;
+}
+.media-screen {
+  min-height: 260px;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--border, #ddd);
+}
+.media-meta {
+  padding: 0.25rem 0;
+}

@@ -1,0 +1,29 @@
+.schedule-card {
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--border, #ddd);
+}
+.schedule-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.schedule-table-wrap {
+  overflow-x: auto;
+}
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.schedule-table th,
+.schedule-table td {
+  padding: 0.85rem 0.9rem;
+  border-bottom: 1px solid var(--border, #ddd);
+  text-align: left;
+}
+.schedule-table th {
+  font-size: 0.95rem;
+}

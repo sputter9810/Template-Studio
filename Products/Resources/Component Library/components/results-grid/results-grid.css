@@ -1,0 +1,19 @@
+.results-grid {
+  display: grid;
+  gap: 1rem;
+}
+.result-card {
+  padding: 1.25rem;
+  border-radius: 18px;
+  border: 1px solid var(--border, #ddd);
+}
+.result-card strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+@media (min-width: 760px) {
+  .results-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
