@@ -1,0 +1,47 @@
+.gallery-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.gallery-item {
+  min-height: 220px;
+  padding: 1rem;
+  display: flex;
+  align-items: end;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  color: var(--color-accent-strong);
+  font-weight: 700;
+  box-shadow: var(--shadow-card);
+}
+
+.gallery-tone-1 {
+  background: linear-gradient(180deg, #f7dbe4, #efc3d1);
+}
+
+.gallery-tone-2 {
+  background: linear-gradient(180deg, #f4e8e2, #ebd5d0);
+}
+
+.gallery-tone-3 {
+  background: linear-gradient(180deg, #f8eff2, #eddfe5);
+}
+
+.gallery-tone-4 {
+  background: linear-gradient(180deg, #e8ced8, #d69bb0);
+}
+
+@media (min-width: 760px) {
+  .nail-gallery-grid {
+    grid-template-columns: 1.05fr 0.95fr 0.95fr;
+  }
+
+  .gallery-item-tall {
+    grid-row: span 2;
+    min-height: 460px;
+  }
+
+  .gallery-item-wide {
+    grid-column: span 2;
+  }
+}

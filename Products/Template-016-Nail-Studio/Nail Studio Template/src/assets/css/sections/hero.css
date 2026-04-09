@@ -1,0 +1,52 @@
+.hero-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-section {
+  padding-top: 6.5rem;
+}
+
+.hero-visual,
+.hero-placeholder {
+  min-height: 360px;
+  border-radius: 28px;
+}
+
+.nail-hero-visual {
+  position: relative;
+}
+
+.hero-image-card {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+  padding: 1.25rem;
+  background: linear-gradient(180deg, rgba(241, 201, 214, 0.9) 0%, rgba(252, 241, 245, 0.96) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  box-shadow: var(--shadow-soft);
+}
+
+.nail-mood-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.nail-mood-card::after {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  right: -60px;
+  top: -60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.32);
+  filter: blur(2px);
+}
+
+@media (min-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1.05fr 0.95fr;
+  }
+}

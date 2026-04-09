@@ -1,0 +1,17 @@
+/* COMPONENT: stats-grid */
+.about-stat-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.about-stat-grid strong {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+@media (min-width: 760px) {
+  .about-stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

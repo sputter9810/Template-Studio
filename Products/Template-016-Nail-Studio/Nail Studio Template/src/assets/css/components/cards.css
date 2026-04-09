@@ -1,0 +1,70 @@
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+}
+
+.card-meta {
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--color-accent-deep);
+  font-weight: 700;
+}
+
+.card-price {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-weight: 700;
+  color: var(--color-accent-strong);
+}
+
+.featured-service {
+  background: linear-gradient(180deg, rgba(255, 245, 248, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.testimonial-card p:first-child {
+  margin-top: 0;
+}
+
+.pricing-card {
+  position: relative;
+}
+
+.pricing-card .pricing-amount {
+  margin: 0.2rem 0 0.85rem;
+  color: var(--color-accent-strong);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.pricing-features {
+  padding-left: 1.1rem;
+  margin: 1rem 0 0;
+}
+
+.pricing-features li + li {
+  margin-top: 0.45rem;
+}
+
+.featured-pricing {
+  background: linear-gradient(180deg, rgba(247, 220, 228, 0.95) 0%, rgba(255, 255, 255, 1) 100%);
+  border-color: rgba(171, 95, 120, 0.24);
+}
+
+@media (min-width: 760px) {
+  .card-grid.three-up {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .card-grid.two-up {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

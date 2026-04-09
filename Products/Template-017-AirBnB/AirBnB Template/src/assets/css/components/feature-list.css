@@ -1,0 +1,15 @@
+/* COMPONENT: feature-list */
+.feature-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.feature-item {
+  padding: 1rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.compact-list .feature-item {
+  padding: 0.75rem 0;
+}

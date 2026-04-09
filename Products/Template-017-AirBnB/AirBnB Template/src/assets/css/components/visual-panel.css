@@ -1,0 +1,32 @@
+/* COMPONENT: visual-panel */
+.visual-panel,
+.placeholder-panel {
+  min-height: 220px;
+  border-radius: 24px;
+  border: 1px solid var(--border);
+  padding: 1.25rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(239, 232, 223, 0.95));
+  box-shadow: var(--shadow);
+}
+
+.visual-hero {
+  min-height: 360px;
+}
+
+.visual-badge {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  font-weight: 700;
+  background: var(--accent-soft);
+  color: var(--primary-strong);
+}
+
+.visual-panel-soft {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(226, 236, 245, 0.92));
+}
+
+.visual-panel-warm {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(244, 229, 210, 0.92));
+}

@@ -1,0 +1,35 @@
+.contact-form {
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.45rem;
+  color: var(--color-accent-strong);
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.95rem 1rem;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--color-text-soft);
+}

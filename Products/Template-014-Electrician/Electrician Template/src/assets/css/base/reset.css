@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body, h1, h2, h3, p, ul { margin: 0; }
+body { min-height: 100vh; }
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+button, input, textarea, select { font: inherit; }

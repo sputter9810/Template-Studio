@@ -1,0 +1,13 @@
+.pricing-grid {
+  align-items: stretch;
+}
+
+.pricing-card-compact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pricing-section .section-header {
+  max-width: 760px;
+}

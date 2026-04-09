@@ -1,0 +1,22 @@
+.faq-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.faq-item {
+  padding: 1rem 1.25rem;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--color-accent-strong);
+}
+
+.faq-item p {
+  margin-top: 0.9rem;
+}

@@ -1,0 +1,17 @@
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  color: var(--primary-strong);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.media-panel {
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+}

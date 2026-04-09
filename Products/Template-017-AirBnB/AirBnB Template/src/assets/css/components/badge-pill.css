@@ -1,0 +1,11 @@
+/* COMPONENT: badge-pill */
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  font-weight: 700;
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  margin-bottom: 0.85rem;
+}

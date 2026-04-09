@@ -1,0 +1,167 @@
+@import url("./components/theme-switcher.css");
+@import url("base/reset.css");
+@import url("base/variables.css");
+@import url("base/typography.css");
+@import url("base/utilities.css");
+@import url("layout/container.css");
+@import url("components/brand.css");
+@import url("components/buttons.css");
+@import url("components/cards.css");
+@import url("components/contact-form.css");
+@import url("components/feature-list.css");
+@import url("components/footer.css");
+@import url("components/hero-block.css");
+@import url("components/navigation.css");
+@import url("components/section-wrapper.css");
+@import url("components/trust-strip.css");
+@import url("sections/hero.css");
+@import url("sections/services.css");
+@import url("sections/pricing.css");
+@import url("sections/about.css");
+@import url("sections/gallery.css");
+@import url("sections/testimonials.css");
+@import url("sections/faq.css");
+@import url("sections/cta.css");
+@import url("sections/contact.css");
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(245, 203, 214, 0.36), transparent 30%),
+    radial-gradient(circle at top right, rgba(239, 216, 194, 0.32), transparent 22%),
+    var(--color-bg);
+  color: var(--color-text);
+}
+
+main {
+  display: block;
+}
+
+.site-header {
+  background: rgba(255, 255, 255, 0.84);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-footer {
+  padding: 4rem 0;
+  background: var(--color-surface-strong);
+  border-top: 1px solid var(--border);
+}
+
+.eyebrow {
+  margin: 0 0 0.85rem;
+  color: var(--color-accent-deep);
+  font-size: 0.83rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.split-layout {
+  display: grid;
+}
+
+.contact-details p + p {
+  margin-top: 1rem;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li + li {
+  margin-top: 0.6rem;
+}
+
+.placeholder-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.nail-swatch-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 1rem;
+  width: 100%;
+}
+
+.swatch-card {
+  position: relative;
+  min-height: 150px;
+  padding: 1rem;
+  display: flex;
+  align-items: end;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  color: var(--color-accent-strong);
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.swatch-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.6)),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.38), transparent 58%);
+}
+
+.swatch-card span {
+  position: relative;
+  z-index: 1;
+}
+
+.swatch-card-large {
+  grid-row: span 2;
+  min-height: 320px;
+  background: linear-gradient(160deg, #f6d7e0 0%, #ebb8c8 48%, #d88ea5 100%);
+}
+
+.swatch-card-soft {
+  background: linear-gradient(160deg, #f4e5df 0%, #efcfcb 100%);
+}
+
+.swatch-card-sheer {
+  background: linear-gradient(160deg, #f9efe9 0%, #f2ddd6 100%);
+}
+
+.gift-card-note {
+  margin-top: 1.5rem;
+  background: linear-gradient(135deg, rgba(245, 203, 214, 0.26), rgba(255, 255, 255, 0.95));
+}
+
+body[data-theme="after-hours"] {
+  background:
+    radial-gradient(circle at top left, rgba(216, 161, 185, 0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(71, 52, 70, 0.28), transparent 22%),
+    var(--color-bg);
+}
+
+body[data-theme="after-hours"] .site-header {
+  background: rgba(24, 19, 24, 0.88);
+}
+
+@media (min-width: 900px) {
+  .split-layout {
+    grid-template-columns: 0.95fr 1.05fr;
+  }
+}
