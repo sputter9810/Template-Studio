@@ -1,0 +1,28 @@
+
+.theme-panel {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 120;
+  width: min(19rem, calc(100vw - 2rem));
+  padding: 1rem;
+  border: 1px solid var(--border, #d9d9d9);
+  border-radius: 1.1rem;
+  background: var(--surface, var(--color-surface, #ffffff));
+  color: var(--text, var(--color-text, #1f1f1f));
+  box-shadow: var(--shadow, var(--shadow-card, 0 16px 40px rgba(15, 23, 42, 0.14)));
+  backdrop-filter: blur(12px);
+}
+.theme-panel-header {display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.85rem;}
+.theme-panel-title {display:inline-flex;align-items:center;gap:0.55rem;font-size:0.95rem;font-weight:700;letter-spacing:0.01em;}
+.theme-panel-title::before {content:"";width:0.95rem;height:0.95rem;border-radius:999px;background:linear-gradient(135deg,var(--accent, var(--primary, var(--brand, var(--color-accent, #222222)))),var(--accent-strong, var(--primary-strong, var(--brand-2, var(--color-accent-strong, #777777)))));border:1px solid var(--border, #d9d9d9);}
+.theme-panel-current {font-size:0.82rem;color:var(--muted, var(--text-soft, var(--color-text-soft, #666666)));}
+.theme-options {display:grid;grid-template-columns:1fr;gap:0.5rem;}
+.theme-option {width:100%;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:0.75rem;padding:0.72rem 0.8rem;border-radius:0.95rem;border:1px solid var(--border, #d9d9d9);background:var(--surface, var(--color-surface, #ffffff));color:inherit;cursor:pointer;transition:transform 160ms ease,border-color 160ms ease,background-color 160ms ease,box-shadow 160ms ease;}
+.theme-option:hover,.theme-option:focus-visible {transform:translateY(-1px);outline:none;}
+.theme-option.is-active {border-color:var(--accent, var(--primary, var(--brand, var(--color-accent, #222222))));box-shadow:0 0 0 2px rgba(15, 23, 42, 0.08);}
+.theme-option-swatch {width:1.35rem;height:1.35rem;border-radius:999px;border:1px solid rgba(255,255,255,0.28);box-shadow:0 0 0 1px rgba(15,23,42,0.08);}
+.theme-option-name {font-size:0.95rem;font-weight:600;text-align:left;}
+.theme-option-check {font-size:0.9rem;opacity:0;}
+.theme-option.is-active .theme-option-check {opacity:1;}
+@media (max-width: 640px) {.theme-panel {left:1rem;right:1rem;width:auto;padding:0.9rem;}.theme-option {padding:0.68rem 0.74rem;}}

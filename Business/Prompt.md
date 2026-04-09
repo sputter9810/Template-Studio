@@ -1,6 +1,6 @@
 **Codex Prompt**
 
-Generate a template by reading specification documents from Documents\Name. Use the components/sections in the master files. Output to Products/Name.
+Generate a template by reading specification documents from Documents\Template-000-Name. Use the components/sections in Resources\Component Library. Output to Products\Template-000-Name
 
 **Copy n Paste**
-Generate a template by reading specification documents from Documents\Batch 2\Template 018 Online Coach. Use the components/sections in the master files. Output to Products/Template-018-Online-Coach.
+Generate a template by reading specification documents from Documents\Template-023-Boxing-Gym. Use the components/sections in Resources\Component Library. Output to Products\Template-023-Boxing-Gym.

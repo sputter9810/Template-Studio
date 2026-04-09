@@ -1,0 +1,103 @@
+:root {
+  --bg: #101010;
+  --surface: #171717;
+  --surface-2: #212121;
+  --text: #f4f1eb;
+  --muted: #b7b0a6;
+  --line: rgba(255, 255, 255, 0.1);
+  --brand: #b8ff46;
+  --brand-2: #66f0c6;
+  --warm: #2e1d14;
+  --border: rgba(255, 255, 255, 0.1);
+  --shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  --radius: 24px;
+  --container: 1180px;
+  --brand-contrast: #111111;
+  --glow-1: rgba(184, 255, 70, 0.16);
+  --glow-2: rgba(102, 240, 198, 0.12);
+}
+
+body[data-theme="graphite-lime"] {
+  --bg: #101010;
+  --surface: #171717;
+  --surface-2: #212121;
+  --text: #f4f1eb;
+  --muted: #c0b8ad;
+  --border: #2f2f2f;
+  --line: #2b2b2b;
+  --brand: #b8ff46;
+  --brand-2: #66f0c6;
+  --warm: #1b2412;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --brand-contrast: #111111;
+  --glow-1: rgba(184, 255, 70, 0.16);
+  --glow-2: rgba(102, 240, 198, 0.12);
+}
+
+body[data-theme="urban-teal"] {
+  --bg: #0e1314;
+  --surface: #131d1f;
+  --surface-2: #1b282b;
+  --text: #edf7f5;
+  --muted: #b7cbc7;
+  --border: #29403e;
+  --line: #213431;
+  --brand: #22d3c5;
+  --brand-2: #8cf7d5;
+  --warm: #13302b;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --brand-contrast: #111111;
+  --glow-1: rgba(34, 211, 197, 0.16);
+  --glow-2: rgba(140, 247, 213, 0.12);
+}
+
+body[data-theme="steel-mint"] {
+  --bg: #10161e;
+  --surface: #16212b;
+  --surface-2: #1d2c38;
+  --text: #eef7f7;
+  --muted: #b9c9cf;
+  --border: #2a3d4d;
+  --line: #223544;
+  --brand: #7cf2b5;
+  --brand-2: #a4ffd0;
+  --warm: #1a2833;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --brand-contrast: #111111;
+  --glow-1: rgba(124, 242, 181, 0.16);
+  --glow-2: rgba(164, 255, 208, 0.12);
+}
+
+body[data-theme="night-heat"] {
+  --bg: #140e0d;
+  --surface: #1d1412;
+  --surface-2: #281c19;
+  --text: #fff1eb;
+  --muted: #d9b7a6;
+  --border: #3b2924;
+  --line: #33231f;
+  --brand: #ff7a3d;
+  --brand-2: #ffb36d;
+  --warm: #341e17;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --brand-contrast: #111111;
+  --glow-1: rgba(255, 122, 61, 0.16);
+  --glow-2: rgba(255, 179, 109, 0.12);
+}
+
+body[data-theme="chalk-studio"] {
+  --bg: #f4f0e7;
+  --surface: #ffffff;
+  --surface-2: #e8e2d7;
+  --text: #111111;
+  --muted: #5c5c56;
+  --border: #d5d0c3;
+  --line: #d6d0c4;
+  --brand: #1d8f7e;
+  --brand-2: #5b564e;
+  --warm: #dde6de;
+  --shadow: 0 24px 60px rgba(17, 17, 17, 0.1);
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(29, 143, 126, 0.08);
+  --glow-2: rgba(91, 86, 78, 0.08);
+}

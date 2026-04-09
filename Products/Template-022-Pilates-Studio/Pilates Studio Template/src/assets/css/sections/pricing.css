@@ -1,0 +1,13 @@
+.pricing-grid {
+  align-items: stretch;
+}
+
+.featured-pricing {
+  transform: translateY(-0.35rem);
+}
+
+@media (max-width: 759px) {
+  .featured-pricing {
+    transform: none;
+  }
+}
