@@ -1,0 +1,33 @@
+.team-grid {
+  align-items: stretch;
+}
+
+.team-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-card::after {
+  content: "";
+  position: absolute;
+  inset: auto -2rem -2rem auto;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(209, 170, 119, 0.14), transparent 72%);
+  pointer-events: none;
+}
+
+.team-avatar {
+  display: inline-grid;
+  place-items: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  margin-bottom: 1rem;
+  border-radius: 999px;
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.01em;
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  color: var(--brand-contrast);
+}

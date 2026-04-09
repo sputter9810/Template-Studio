@@ -1,0 +1,29 @@
+.pricing-grid {
+  align-items: stretch;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  min-height: 100%;
+}
+
+.pricing-amount {
+  margin: 0;
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1;
+}
+
+.pricing-amount span {
+  font-size: 1rem;
+  font-family: "Manrope", system-ui, sans-serif;
+}
+
+.featured-pricing {
+  border-color: var(--brand);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03)),
+    var(--surface);
+}

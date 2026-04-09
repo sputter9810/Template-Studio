@@ -1,0 +1,19 @@
+.gallery-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.gallery-item {
+  min-height: 14rem;
+  display: grid;
+  place-items: end start;
+  padding: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+@media (min-width: 760px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

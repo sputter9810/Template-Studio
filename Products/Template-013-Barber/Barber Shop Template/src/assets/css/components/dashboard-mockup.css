@@ -1,0 +1,26 @@
+.dashboard-mockup {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.4rem;
+}
+
+.mock-row { display: grid; gap: 1rem; }
+
+.mock-card {
+  padding: 1rem;
+  border-radius: 18px;
+  border: 1px solid var(--border, #ddd);
+}
+
+.mock-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: var(--brand-2);
+}
+
+.mock-card p { color: var(--muted); }
+
+@media (min-width: 760px) {
+  .mock-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
