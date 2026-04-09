@@ -1,0 +1,103 @@
+:root {
+  --bg: #101010;
+  --surface: #171717;
+  --surface-2: #212121;
+  --text: #f4f1eb;
+  --muted: #b7b0a6;
+  --line: rgba(255, 255, 255, 0.1);
+  --brand: #ff6b2c;
+  --brand-2: #ffb14d;
+  --warm: #2e1d14;
+  --border: rgba(255, 255, 255, 0.1);
+  --shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  --radius: 24px;
+  --container: 1180px;
+  --brand-contrast: #111111;
+  --glow-1: rgba(255, 107, 44, 0.16);
+  --glow-2: rgba(255, 177, 77, 0.12);
+}
+
+body[data-theme="ember"] {
+  --bg: #101010;
+  --surface: #171717;
+  --surface-2: #212121;
+  --text: #f4f1eb;
+  --muted: #b7b0a6;
+  --border: #2f2f2f;
+  --line: #2b2b2b;
+  --brand: #ff6b2c;
+  --brand-2: #ffb14d;
+  --warm: #2e1d14;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --brand-contrast: #111111;
+  --glow-1: rgba(255, 107, 44, 0.16);
+  --glow-2: rgba(255, 177, 77, 0.12);
+}
+
+body[data-theme="toxic-lime"] {
+  --bg: #0c0f08;
+  --surface: #141911;
+  --surface-2: #1b2414;
+  --text: #f7ffe8;
+  --muted: #d1e0b2;
+  --border: #2e3923;
+  --line: #28311d;
+  --brand: #9be000;
+  --brand-2: #d8ff5a;
+  --warm: #1f280f;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --brand-contrast: #111111;
+  --glow-1: rgba(155, 224, 0, 0.16);
+  --glow-2: rgba(216, 255, 90, 0.12);
+}
+
+body[data-theme="competition-red"] {
+  --bg: #140a0b;
+  --surface: #1d1113;
+  --surface-2: #271619;
+  --text: #fff1f1;
+  --muted: #efb0b0;
+  --border: #382123;
+  --line: #321d1e;
+  --brand: #d92525;
+  --brand-2: #ff6a6a;
+  --warm: #341517;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(217, 37, 37, 0.16);
+  --glow-2: rgba(255, 106, 106, 0.12);
+}
+
+body[data-theme="steel-blue"] {
+  --bg: #0c1118;
+  --surface: #121a25;
+  --surface-2: #192534;
+  --text: #eef5ff;
+  --muted: #bacbe2;
+  --border: #253447;
+  --line: #1f2d3d;
+  --brand: #3d7dff;
+  --brand-2: #7db7ff;
+  --warm: #172334;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(61, 125, 255, 0.16);
+  --glow-2: rgba(125, 183, 255, 0.12);
+}
+
+body[data-theme="chalk"] {
+  --bg: #f5f1e8;
+  --surface: #ffffff;
+  --surface-2: #ece6da;
+  --text: #111111;
+  --muted: #5b564e;
+  --border: #d9d0bf;
+  --line: #d8cebd;
+  --brand: #111111;
+  --brand-2: #5b564e;
+  --warm: #ebe3d2;
+  --shadow: 0 24px 60px rgba(17, 17, 17, 0.1);
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(17, 17, 17, 0.08);
+  --glow-2: rgba(91, 86, 78, 0.08);
+}
