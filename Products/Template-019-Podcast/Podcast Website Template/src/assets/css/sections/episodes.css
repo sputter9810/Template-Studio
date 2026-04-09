@@ -1,0 +1,23 @@
+.episodes-grid {
+  align-items: stretch;
+}
+
+.episode-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.episode-card::after {
+  content: "";
+  position: absolute;
+  inset: auto -1.25rem -1.5rem auto;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 999px;
+  background: radial-gradient(circle, var(--glow-2), transparent 72%);
+  pointer-events: none;
+}
+
+.episode-card .card-price {
+  color: var(--brand-2);
+}

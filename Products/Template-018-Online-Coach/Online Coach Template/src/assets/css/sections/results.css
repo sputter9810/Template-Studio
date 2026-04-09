@@ -1,0 +1,44 @@
+.results-layout {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
+}
+
+.results-copy .section-header {
+  margin-bottom: 1.5rem;
+}
+
+.results-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.results-highlight-list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.results-highlight-list > div {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+}
+
+.results-highlight-list strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.25rem;
+}
+
+.results-highlight-list span {
+  color: var(--muted);
+}
+
+@media (min-width: 900px) {
+  .results-layout {
+    grid-template-columns: 0.95fr 1.05fr;
+  }
+}

@@ -1,0 +1,103 @@
+:root {
+  --bg: #120f1f;
+  --surface: #171427;
+  --surface-2: #201b34;
+  --text: #f6f2ff;
+  --muted: #bdb4d2;
+  --line: rgba(255, 255, 255, 0.12);
+  --brand: #7b5cff;
+  --brand-2: #1ec8b0;
+  --warm: #2b1d45;
+  --border: rgba(255, 255, 255, 0.12);
+  --shadow: 0 24px 60px rgba(6, 5, 16, 0.34);
+  --radius: 24px;
+  --container: 1180px;
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(123, 92, 255, 0.18);
+  --glow-2: rgba(30, 200, 176, 0.14);
+}
+
+body[data-theme="night-studio"] {
+  --bg: #120f1f;
+  --surface: #171427;
+  --surface-2: #201b34;
+  --text: #f6f2ff;
+  --muted: #bdb4d2;
+  --border: #30294a;
+  --line: #2b2640;
+  --brand: #7b5cff;
+  --brand-2: #1ec8b0;
+  --warm: #2b1d45;
+  --shadow: 0 24px 60px rgba(6, 5, 16, 0.34);
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(123, 92, 255, 0.18);
+  --glow-2: rgba(30, 200, 176, 0.14);
+}
+
+body[data-theme="deep-current"] {
+  --bg: #0e1729;
+  --surface: #132037;
+  --surface-2: #1b2c49;
+  --text: #eff7ff;
+  --muted: #bad0ea;
+  --border: #293a58;
+  --line: #233350;
+  --brand: #6fb1ff;
+  --brand-2: #9ce8df;
+  --warm: #1c2943;
+  --shadow: 0 24px 60px rgba(4, 9, 20, 0.34);
+  --brand-contrast: #0e1729;
+  --glow-1: rgba(111, 177, 255, 0.16);
+  --glow-2: rgba(156, 232, 223, 0.12);
+}
+
+body[data-theme="coral-edit"] {
+  --bg: #1a1117;
+  --surface: #23151f;
+  --surface-2: #301b28;
+  --text: #fff2f3;
+  --muted: #efc0c6;
+  --border: #402430;
+  --line: #351d28;
+  --brand: #ff7a66;
+  --brand-2: #ffb46d;
+  --warm: #3a1e28;
+  --shadow: 0 24px 60px rgba(16, 6, 10, 0.34);
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(255, 122, 102, 0.16);
+  --glow-2: rgba(255, 180, 109, 0.12);
+}
+
+body[data-theme="signal-gold"] {
+  --bg: #17110a;
+  --surface: #20180f;
+  --surface-2: #2d2114;
+  --text: #fff7ea;
+  --muted: #d7c7a8;
+  --border: #44321d;
+  --line: #392917;
+  --brand: #f3b544;
+  --brand-2: #ffd98a;
+  --warm: #342516;
+  --shadow: 0 24px 60px rgba(12, 8, 2, 0.34);
+  --brand-contrast: #1e1408;
+  --glow-1: rgba(243, 181, 68, 0.18);
+  --glow-2: rgba(255, 217, 138, 0.12);
+}
+
+body[data-theme="paper-light"] {
+  --bg: #fbf7ef;
+  --surface: #ffffff;
+  --surface-2: #edf1f4;
+  --text: #1e1a2d;
+  --muted: #635d73;
+  --border: #ddd6ca;
+  --line: #d7dce2;
+  --brand: #4e46e5;
+  --brand-2: #0f766e;
+  --warm: #ece4d7;
+  --shadow: 0 24px 60px rgba(30, 26, 45, 0.1);
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(78, 70, 229, 0.08);
+  --glow-2: rgba(15, 118, 110, 0.08);
+}

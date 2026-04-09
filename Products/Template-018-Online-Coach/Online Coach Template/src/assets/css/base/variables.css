@@ -1,0 +1,103 @@
+:root {
+  --bg: #16101d;
+  --surface: #1d1527;
+  --surface-2: #271d34;
+  --text: #f9f4f0;
+  --muted: #cbbec8;
+  --line: rgba(255, 255, 255, 0.12);
+  --brand: #e88b7d;
+  --brand-2: #76d4c1;
+  --warm: #342145;
+  --border: rgba(255, 255, 255, 0.12);
+  --shadow: 0 24px 60px rgba(6, 5, 16, 0.34);
+  --radius: 24px;
+  --container: 1180px;
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(232, 139, 125, 0.16);
+  --glow-2: rgba(118, 212, 193, 0.14);
+}
+
+body[data-theme="plum-authority"] {
+  --bg: #16101d;
+  --surface: #1d1527;
+  --surface-2: #271d34;
+  --text: #f9f4f0;
+  --muted: #cbbec8;
+  --border: #3a2a45;
+  --line: #32253c;
+  --brand: #e88b7d;
+  --brand-2: #76d4c1;
+  --warm: #342145;
+  --shadow: 0 24px 60px rgba(6, 5, 16, 0.34);
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(232, 139, 125, 0.16);
+  --glow-2: rgba(118, 212, 193, 0.12);
+}
+
+body[data-theme="forest-ledger"] {
+  --bg: #0f1715;
+  --surface: #15201d;
+  --surface-2: #1c2a26;
+  --text: #f3f4ee;
+  --muted: #bcc7bd;
+  --border: #2b3a35;
+  --line: #24332f;
+  --brand: #c7a566;
+  --brand-2: #8dc7b0;
+  --warm: #2d2418;
+  --shadow: 0 24px 60px rgba(4, 9, 8, 0.34);
+  --brand-contrast: #112018;
+  --glow-1: rgba(199, 165, 102, 0.18);
+  --glow-2: rgba(141, 199, 176, 0.12);
+}
+
+body[data-theme="navy-lift"] {
+  --bg: #101827;
+  --surface: #152135;
+  --surface-2: #1d2d47;
+  --text: #eff4fb;
+  --muted: #bac7db;
+  --border: #293b58;
+  --line: #223450;
+  --brand: #63b8d7;
+  --brand-2: #f0c57a;
+  --warm: #1e2940;
+  --shadow: 0 24px 60px rgba(4, 9, 20, 0.34);
+  --brand-contrast: #102038;
+  --glow-1: rgba(99, 184, 215, 0.16);
+  --glow-2: rgba(240, 197, 122, 0.12);
+}
+
+body[data-theme="coral-momentum"] {
+  --bg: #1b1115;
+  --surface: #25161c;
+  --surface-2: #341e25;
+  --text: #fff2ee;
+  --muted: #efc4bb;
+  --border: #452730;
+  --line: #382028;
+  --brand: #ff8f70;
+  --brand-2: #f3c86f;
+  --warm: #402126;
+  --shadow: 0 24px 60px rgba(16, 6, 10, 0.34);
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(255, 143, 112, 0.16);
+  --glow-2: rgba(243, 200, 111, 0.12);
+}
+
+body[data-theme="soft-light"] {
+  --bg: #f7f2eb;
+  --surface: #ffffff;
+  --surface-2: #e8efec;
+  --text: #221a24;
+  --muted: #6d6371;
+  --border: #ddd2ca;
+  --line: #d6ddd8;
+  --brand: #9b5c58;
+  --brand-2: #2d8279;
+  --warm: #ece0d6;
+  --shadow: 0 24px 60px rgba(34, 26, 36, 0.1);
+  --brand-contrast: #ffffff;
+  --glow-1: rgba(155, 92, 88, 0.08);
+  --glow-2: rgba(45, 130, 121, 0.08);
+}
