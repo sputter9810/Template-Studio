@@ -1,0 +1,31 @@
+.visual-panel,
+.placeholder-panel,
+.hero-stat,
+.mock-card,
+.cta-banner {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.02));
+  box-shadow: var(--shadow);
+}
+
+.visual-panel,
+.placeholder-panel {
+  min-height: 220px;
+  border-radius: 24px;
+  border: 1px solid var(--border, #ddd);
+  padding: 1.25rem;
+}
+
+.visual-hero { min-height: 420px; }
+
+.visual-badge {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--line);
+}
+
+.visual-panel-soft { background: linear-gradient(180deg, rgba(45, 212, 191, 0.11), rgba(255, 255, 255, 0.03)); }
+.visual-panel-warm { background: linear-gradient(180deg, rgba(249, 115, 22, 0.12), rgba(255, 255, 255, 0.03)); }

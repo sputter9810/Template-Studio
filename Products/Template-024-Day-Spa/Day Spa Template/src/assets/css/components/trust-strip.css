@@ -1,0 +1,19 @@
+.trust-strip { padding: 1rem 0; }
+
+.trust-items {
+  display: grid;
+  gap: 1rem;
+}
+
+.trust-items span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--line);
+}
+
+@media (min-width: 760px) {
+  .trust-items { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}

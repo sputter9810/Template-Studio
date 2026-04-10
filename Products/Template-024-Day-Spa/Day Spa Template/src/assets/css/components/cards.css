@@ -1,0 +1,91 @@
+.card-grid { display: grid; gap: 1.5rem; }
+
+.card {
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--border, #ddd);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.16));
+  box-shadow: var(--shadow);
+}
+
+.card-meta {
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--brand-2);
+  font-weight: 700;
+}
+
+.card-price {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.service-card,
+.team-card,
+.testimonial-card {
+  background: linear-gradient(180deg, color-mix(in srgb, var(--surface) 92%, white 8%), color-mix(in srgb, var(--surface-2) 68%, transparent));
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pricing-card .btn {
+  margin-top: auto;
+}
+
+.pricing-amount {
+  margin: 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2.35rem, 4vw, 3.1rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.pricing-amount span {
+  margin-left: 0.35rem;
+  font-size: 0.95rem;
+  font-family: "Manrope", system-ui, sans-serif;
+  color: var(--muted);
+}
+
+.pricing-features {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+}
+
+.pricing-features li + li {
+  margin-top: 0.45rem;
+}
+
+.featured-pricing {
+  border-color: var(--brand);
+}
+
+.testimonial-card strong {
+  display: block;
+  margin-top: 1rem;
+  color: var(--muted);
+}
+
+.process-card .step-number {
+  display: inline-grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--warm), #fb923c);
+  color: #fff;
+}
+
+@media (min-width: 760px) {
+  .card-grid.three-up { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .card-grid.two-up { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

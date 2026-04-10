@@ -1,0 +1,72 @@
+.hero-section { padding-top: 4rem; }
+
+.hero-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-visual { min-width: 0; }
+.hero-text { max-width: 62ch; color: var(--muted); font-size: 1.06rem; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1.75rem 0; }
+
+.hero-points {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+
+.hero-points li {
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface) 85%, transparent);
+}
+
+.hero-media h2 { font-size: clamp(1.6rem, 2vw, 2rem); }
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.6rem;
+}
+
+.hero-stat {
+  padding: 1rem;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+}
+
+.hero-stat strong,
+.hero-stat span {
+  display: block;
+}
+
+.hero-stat strong {
+  margin-bottom: 0.35rem;
+  font-size: 1.05rem;
+}
+
+.hero-stat span {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.hero-media p,
+.hero-media .mock-card p {
+  color: var(--muted);
+}
+
+@media (max-width: 560px) {
+  .hero-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero-grid { grid-template-columns: 1.05fr 0.95fr; }
+}
